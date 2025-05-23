@@ -1,0 +1,202 @@
+{
+  "columns": [
+    {
+      "width": 51,
+      "minWidth": 40,
+      "download": false,
+      "formatter": "rowSelection",
+      "titleFormatter": "rowSelection",
+      "resizable": true,
+      "headerSort": false
+    },
+    {
+      "field": "customerID",
+      "title": "customerID",
+      "width": 128,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "gender",
+      "title": "gender",
+      "width": 101,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "SeniorCitizen",
+      "title": "SeniorCitizen",
+      "width": 138,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "Partner",
+      "title": "Partner",
+      "width": 103,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "Dependents",
+      "title": "Dependents",
+      "width": 133,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "tenure",
+      "title": "tenure",
+      "width": 98,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "PhoneService",
+      "title": "PhoneService",
+      "width": 141,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "MultipleLines",
+      "title": "MultipleLines",
+      "width": 140,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "InternetService",
+      "title": "InternetService",
+      "width": 152,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "OnlineSecurity",
+      "title": "OnlineSecurity",
+      "width": 148,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "OnlineBackup",
+      "title": "OnlineBackup",
+      "width": 143,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "DeviceProtection",
+      "title": "DeviceProtection",
+      "width": 164,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "TechSupport",
+      "title": "TechSupport",
+      "width": 136,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "StreamingTV",
+      "title": "StreamingTV",
+      "width": 137,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "StreamingMovies",
+      "title": "StreamingMovies",
+      "width": 164,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "Contract",
+      "title": "Contract",
+      "width": 115,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "PaperlessBilling",
+      "title": "PaperlessBilling",
+      "width": 155,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "PaymentMethod",
+      "title": "PaymentMethod",
+      "width": 170,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    },
+    {
+      "field": "MonthlyCharges",
+      "title": "MonthlyCharges",
+      "width": 159,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "TotalCharges",
+      "title": "TotalCharges",
+      "width": 138,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "number",
+      "headerSort": true
+    },
+    {
+      "field": "Churn",
+      "title": "Churn",
+      "width": 93,
+      "minWidth": 40,
+      "resizable": true,
+      "sorter": "string",
+      "headerSort": true
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "fields": [
+    {
+      "name": "customerID",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "gender",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "SeniorCitizen",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "Partner",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "Dependents",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "tenure",
+      "type": "integer",
+      "format": "default"
+    },
+    {
+      "name": "PhoneService",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "MultipleLines",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "InternetService",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "OnlineSecurity",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "OnlineBackup",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "DeviceProtection",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "TechSupport",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "StreamingTV",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "StreamingMovies",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "Contract",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PaperlessBilling",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "PaymentMethod",
+      "type": "string",
+      "format": "default"
+    },
+    {
+      "name": "MonthlyCharges",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "TotalCharges",
+      "type": "number",
+      "format": "default"
+    },
+    {
+      "name": "Churn",
+      "type": "string",
+      "format": "default"
+    }
+  ],
+  "missingValues": [
+    ""
+  ]
+}
