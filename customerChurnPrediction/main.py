@@ -1,5 +1,5 @@
 import pandas as pd
-# from sklearn.base import accuracy_score
+
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
@@ -8,32 +8,27 @@ from sklearn.metrics import classification_report, confusion_matrix, accuracy_sc
 # Load the dataset
 df = pd.read_csv('WA_Fn-UseC_-Telco-Customer-Churn.csv')
 
-# Identify columns to drop (example based on previous discussion)
 columns_to_drop = [
-    'customerID',  # Unique identifier, not useful for prediction
-    'gender',      # Less significant
-    'PhoneService', # May not be a strong predictor
-    'MultipleLines', # May not be a strong predictor
-    'StreamingTV',  # Less relevant
-    'StreamingMovies' # Less relevant
+    'customerID',  
+    'gender',      
+    'PhoneService', 
+    'MultipleLines',
+    'StreamingTV', 
+    'StreamingMovies' 
 ]
 
-# Drop the unnecessary columns
+
 df_cleaned = df.drop(columns=columns_to_drop)
 
 missing_values = df_cleaned.isnull().sum()
 
 
-# Handling missing values
 # Convert 'TotalCharges' to numeric, forcing errors to NaN
 df_cleaned['TotalCharges'] = pd.to_numeric(df_cleaned['TotalCharges'], errors='coerce')
 # Example strategy: Fill missing values for 'TotalCharges' with the median
 df_cleaned['TotalCharges'] = df_cleaned['TotalCharges'].fillna(df_cleaned['TotalCharges'].median())
 
-# Alternatively, if you want to drop rows with missing values
-# df_cleaned = df_cleaned.dropna()
 
-# Check again for missing values
 missing_values_after = df_cleaned.isnull().sum()
 # Identify categorical columns to encode
 categorical_columns = [
@@ -79,6 +74,5 @@ print(classification_report(y_test, y_pred))
 accuracy = accuracy_score(y_test, y_pred)
 print(f"\nAccuracy of the model: {accuracy:.2f}")
 
-# Alternatively, you can also check the score using the score method
 model_score = model.score(X_test, y_test)
 print(f"Model score (mean accuracy): {model_score:.2f}")
